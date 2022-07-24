@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	font-size: 15px;
+	font-family: algerian, old english;
+}
+/*
+.container{
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+ }
+
+/*============== THE HEADING================= */
+.header{
+	background-color: white;
+	height: 100px;
+	border-radius: 3px;
+}
+.header img {
+	max-height:100% ;
+	max-width:100% ;
+	border-radius: 5px;
+}
+.header h1 {
+	font-size: 200%;
+	float: right;
+	text-transform: capitalize;
+	margin: 30px;
+	color: black;
+}
+/* ================THE SUBHEADER================ */
+.subheader {
+	background-color: white;
+	height: 40px;
+	border-radius: 3px;
+	margin: 3px 0px;
+	padding: 0.05cm;
+}
+.subheader ul, li, a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	margin: 3px;
+}
+.subheader a:visited {
+	 background-color: lawngreen;
+	 border-radius: 5px;
+}
+.subheader a:Hover{
+	background-color: black;
+	color: white;
+	padding: 0.09cm;
+	border-radius: 5px;
+	transition: 1.5s;
+}
+
+/*==================== THE CONTENT ==================== */
+.content {
+	background-color: white;
+	color: black;
+	padding: 2em;
+}
+.content img {
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 black;
+	opacity: 0.7;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+}
+.content h2 {
+	font-family: algerian;
+	text-align: center;
+	text-decoration: overline;
+	padding: 1em;
+}
+.content span {
+	color: lawngreen;
+}
+.content p {
+	padding: 50px;
+	text-align: center;
+	line-height: 20px;
+	align-content: center;
+}
+
+/*=================THE FOOTER ===============*/
+.footer {
+	background-color: black; 
+	color: white;
+	padding: 50px;
+	text-align: center;
+}
+.footer h3 {
+	text-align: center;
+	margin: 0px;
+}
+.footer span {
+		color: lawngreen;
+}
+/*=============MEDIA QUERY================*/
+@media(min-width: 700px) {
+
+
+}
+
